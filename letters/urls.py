@@ -2,6 +2,6 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path("letters/", get_letters, name="get_letters"),
+    path("letters/", get_letters),
 ]
 
